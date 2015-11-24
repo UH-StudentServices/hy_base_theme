@@ -1,0 +1,22 @@
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -transform: $transform;
+}
+
+@mixin vertically-center {
+  @include transform(translateY(-50%));
+  position: absolute;
+  top: 50%;
+}
+
+@mixin light-zebra-color {
+  &:nth-child(2n-1) {
+    background-color: $white;
+  }
+
+  &:nth-child(2n) {
+    background-color: $lightsilver;
+  }
+}

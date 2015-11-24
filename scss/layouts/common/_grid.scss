@@ -1,0 +1,92 @@
+// TODO: refactoring / streamlining needed for our grid classes
+
+/*
+  section: 1.2
+  title: Grid
+  description: The recommended grid to use is <a href="https://github.com/at-import/Singularity" target="_blank">singularity</a>.
+ */
+
+/**
+ * Generic grid classes for items without a wrapper (only use when you cannot easily get a wrapper around the items e.g. views)
+ */
+%l-grid-item-1,
+.l-grid-item-1 {
+	$grid-gutter: ($vert-spacing-unit);
+	padding-bottom: $grid-gutter;
+	margin-bottom: $grid-gutter;
+}
+
+%l-grid-item-2,
+.l-grid-item-2 {
+	$grid-gutter: ($vert-spacing-unit);
+	margin-bottom: $grid-gutter;
+
+	@include breakpoint($small) {
+		@include layout($gutter: 1) {
+			@include float-span(8);
+
+			&:nth-of-type(2n) {
+				// omega
+				@include float-span(8);
+			}
+		}
+	}
+}
+
+%l-grid-item-3,
+.l-grid-item-3 {
+	$grid-gutter: ($vert-spacing-unit);
+	margin-bottom: $grid-gutter;
+	@include breakpoint($small) {
+		@include layout($grid: 9, $gutter: 1/2) {
+			@include grid-span(3);
+
+			&:nth-of-type(3n) {
+				// omega
+				@include grid-span(3);
+			}
+		}
+	}
+}
+
+%l-grid-item-4,
+.l-grid-item-4 {
+	$grid-gutter: ($vert-spacing-unit);
+	margin-bottom: $grid-gutter;
+
+	@include breakpoint($small) {
+		@include layout($gutter: 1) {
+			@include grid-span(4);
+
+			&:nth-of-type(4n) {
+				// omega
+				@include grid-span(4);
+			}
+		}
+	}
+}
+
+/**
+ * Generic grid classes for a wrapper
+ */
+%grid-2,
+.grid-2 {
+	> * {
+		@extend %l-grid-item-2;
+	}
+}
+
+%grid-3,
+.grid-3 {
+	> * {
+		@extend %l-grid-item-3;
+	}
+}
+
+
+%grid-4,
+.grid-4 {
+	> * {
+		@extend %l-grid-item-4;
+	}
+}

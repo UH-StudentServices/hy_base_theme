@@ -1,0 +1,9 @@
+name = Hy Base Theme
+description = Helsinki University Drupal base theme. Styleguide included.
+core = 7.x
+version = 7.x-1.0-beta1
+base theme = omega
+
+; Stylesheets
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/icons.css
