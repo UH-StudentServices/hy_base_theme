@@ -23,8 +23,8 @@ function hy_base_theme_breadcrumb($variables) {
 
     $output .= '<div class="breadcrumbs">';
     foreach ($breadcrumb as $breadcrumb_item) {
-      $output .= '<span class="breadcrumbs__item">' . $breadcrumb_item . '</span>';
-      $output .= '<span class="breadcrumbs__divider">/ </span>';
+      $output .= '<span class="breadcrumbs__item">' . $breadcrumb_item . ' </span>';
+      $output .= '<span class="breadcrumbs__divider">/</span>';
     }
     $output .= '</div>';
     return $output;
