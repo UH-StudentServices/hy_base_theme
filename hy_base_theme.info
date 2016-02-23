@@ -1,7 +1,7 @@
 name = Hy Base Theme
 description = Helsinki University Drupal base theme. Styleguide included.
 core = 7.x
-version = 7.x-1.0-beta1
+version = 7.x-1.x-dev
 base theme = omega
 
 ; Stylesheets
