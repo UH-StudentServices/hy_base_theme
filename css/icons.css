@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'hy-icons';
-    src: url('../fonts/hy-icons_5.0.0.eot');
-    src: url('../fonts/hy-icons_5.0.0.eot?#iefix') format('eot'), url('../fonts/hy-icons_5.0.0.woff') format('woff'), url('../fonts/hy-icons_5.0.0.ttf') format('truetype');
+    src: url('../fonts/hy-icons_5.0.4.eot');
+    src: url('../fonts/hy-icons_5.0.4.eot?#iefix') format('eot'), url('../fonts/hy-icons_5.0.4.woff') format('woff'), url('../fonts/hy-icons_5.0.4.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -130,3 +130,16 @@
 .hy-video:before { content: "\EA3B" }
 .hy-warning:before { content: "\EA3C" }
 .hy-you-tube:before { content: "\EA3D" }
+.hy-id-number:before { content: "\EA3E" }
+.hy-mail:before { content: "\EA3F" }
+.hy-mobile:before { content: "\EA40" }
+.hy-opinder-logo:before { content: "\EA41" }
+.hy-permission-all:before { content: "\EA42" }
+.hy-permission-group:before { content: "\EA43" }
+.hy-permission-private:before { content: "\EA44" }
+.hy-phone:before { content: "\EA45" }
+.hy-preview:before { content: "\EA46" }
+.hy-url:before { content: "\EA47" }
+.hy-instagram:before { content: "\EA48" }
+.hy-login:before { content: "\EA49" }
+.hy-spinner:before { content: "\EA4A" }

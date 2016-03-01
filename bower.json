@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "dependencies": {
     "Styleguide": "https://github.com/UH-StudentServices/Styleguide.git#release-1.0.7",
-    "Styleguide-icons": "https://github.com/UH-StudentServices/Styleguide-icons.git#~5.0.0"
+    "Styleguide-icons": "https://github.com/UH-StudentServices/Styleguide-icons.git#~5.0.4"
   }
 }
