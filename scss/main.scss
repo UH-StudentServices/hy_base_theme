@@ -3,25 +3,29 @@
   title: Global
   description:
 */
- 
+
 // Import external libraries.
 @import "compass";
 @import "breakpoint";
 @import "singularitygs";
 @import "toolkit";
 
+// Styleguide icon variables
+@import "Styleguide-icons/sass/variables.scss";
+
 // Generate normalize.css.
 @import "normalize";
 
 @import "toolkit/kickstart";
 
-@import 'variables/**/*';
-@import 'mixins/_mixins';
-@import '_states';
-@import 'objects/_objects';
-@import 'typography/_typography';
-@import 'layouts/common/_grid';
-@import 'forms/_forms';
-@import 'forms/_search-form';
-@import 'common-elements/_common-elements';
-@import 'components/**/*';
+@import "variables/**/*";
+@import "mixins/**/*";
+@import "objects/**/*";
+@import "typography/**/*";
+@import "layouts/**/*";
+@import "forms/**/*";
+@import "common-elements/**/*";
+@import "components/**/*";
+@import "_icons.scss";
+@import "_theme.scss";
+@import "_states.scss";
