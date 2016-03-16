@@ -11,7 +11,7 @@
 @import "toolkit";
 
 // Styleguide icon variables
-@import "Styleguide-icons/sass/variables.scss";
+@import "variables.scss";
 
 // Generate normalize.css.
 @import "normalize";
@@ -19,7 +19,7 @@
 @import "toolkit/kickstart";
 
 @import "variables/**/*";
-@import "mixins/**/*";
+@import "mixins/_mixins.scss";
 @import "objects/**/*";
 @import "typography/**/*";
 @import "layouts/**/*";
