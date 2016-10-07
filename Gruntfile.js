@@ -25,15 +25,8 @@ module.exports = function (grunt) {
               keepExpandedHierarchy: true,
               stripGlobBase: true,
               files: [
-                "sass/**/*"
-              ]
-            },
-            'Styleguide-icons': {
-              keepExpandedHierarchy: false,
-              files: [
-                "fonts/*",
-                "css/icons.css",
-                "sass/**/*"
+                "sass/**/*",
+                "fonts/*"
               ]
             }
           }

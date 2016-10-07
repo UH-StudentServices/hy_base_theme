@@ -2,7 +2,6 @@
   "name": "hy_doo",
   "version": "1.0.0",
   "dependencies": {
-    "Styleguide": "https://github.com/UH-StudentServices/Styleguide.git#997e8f27ee2d74282d10d73308681e3ee1e107c9",
-    "Styleguide-icons": "https://github.com/UH-StudentServices/Styleguide-icons.git#~5.0.4"
+    "Styleguide": "https://github.com/UH-StudentServices/Styleguide.git#release-1.0.8"
   }
 }
